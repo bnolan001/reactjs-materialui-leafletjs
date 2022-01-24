@@ -10,18 +10,9 @@ const card = (
   <React.Fragment>
     <CardContent>
       <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-        Word of the Day
-      </Typography>
-      <Typography variant="h5" component="div">
-        lalalalala
-      </Typography>
-      <Typography sx={{ mb: 1.5 }} color="text.secondary">
-        adjective
-      </Typography>
-      <Typography variant="body2">
-        well meaning and kindly.
-        <br />
-        {'"a benevolent smile"'}
+        Leaflet map rendering is broken. Need to be specific with your img
+        styling. Take alook at style.css in this project. If you remove the
+        styling for img then the map will render properly.
       </Typography>
     </CardContent>
     <CardActions>

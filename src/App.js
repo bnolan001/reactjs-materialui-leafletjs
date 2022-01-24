@@ -6,7 +6,7 @@ import { SampleMap } from './sampleMap';
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
+      <h1>I'm Broken!</h1>
       <SampleCard />
       <SampleMap />
     </div>
