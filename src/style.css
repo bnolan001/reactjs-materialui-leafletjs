@@ -7,7 +7,10 @@ p {
   height: 600px;
   width: 100%;
 }
-
+/* 
+This img style is breaking leaflet
+Need to scope it to a specific element
+*/
 img {
   object-fit: cover;
   width: 100%;
