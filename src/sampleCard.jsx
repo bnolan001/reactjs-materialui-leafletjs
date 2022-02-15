@@ -10,9 +10,10 @@ const card = (
   <React.Fragment>
     <CardContent>
       <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-        Leaflet map rendering is broken. Need to be specific with your img
-        styling. Take alook at style.css in this project. If you remove the
-        styling for img then the map will render properly.
+        Leaflet map rendering is broken in this project's implementation. The problem lies
+        with the CSS defined in the <i>style.css</i> file.  To fix the problem we need to be 
+        specific with the style defined for the <i>img</i> element. If you remove the
+        styling for <i>img</i> then the map will render properly.
       </Typography>
     </CardContent>
     <CardActions>
